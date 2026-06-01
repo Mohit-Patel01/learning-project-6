@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+body button:hover{
+  cursor: pointer;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+padding: 6vb 6vh;
+background-color: aliceblue;
+height: 50vh;
+width: 30vb;
+border-radius: 2rem;
+margin: 50px;
+display: flex;
+flex-direction: column;
+row-gap: 25px;
+}
+.top
+{
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+}
+.top img{
+  height: 8vh;
+  width: 8vb;
+  border-radius: 50%;
+  border: 1.5px solid #111;
+}
+.centre{
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+.icon{
+  padding: 0.5vh 0.5vb;
+  border: 1px solid #111;
+  border-radius: 0.8vh;
+}
+.Cn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.7vb;
+}
+.Cn span{
+  margin-top: 0.6vh;
+  font-size: 13px;
+  color: #b0b0b0;
+}
+.tags{
+  display: flex;
+  gap: 2vb;
+  padding: 1vh 1vb;
+}
+.tag1 , .tag2{
+  background-color: #dcdada;
+  padding: 0.5vh 0.5vb;
+  border-radius: 1vh;
+}
+.down{
+  padding: 1vh 1vb;
+  display: flex;
+  justify-content: space-between;
+}
+.down button{
+  padding: 2vh 2vb;
+  border-radius: 2vh;
+  background-color: #111;
+  color: aliceblue;
+  width: 15vb;
+  height: 7vh;
+}
