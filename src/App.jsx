@@ -82,15 +82,12 @@ const jobOpenings = [
     location: "Kolkata"
   }
 ];
-jobOpenings.map(function(elem, idx){
-  
-})
 const App = () => {
   return (
     <div className='parent'>
-    {jobOpenings.map(function(elem){
+    {jobOpenings.map(function(elem, idx){
      
-     return cards(elem)
+     return cards(elem, idx)
     })}
       
     </div>

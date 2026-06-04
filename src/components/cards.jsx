@@ -1,8 +1,8 @@
 import { CiBookmark } from "react-icons/ci";
 
-const cards = (prop) => {
+const cards = (prop, idx) => {
   return (
-    <div className = "card">
+    <div className = "card" key={idx}>
       <div className = "top">
         <div className="logo">
           <img src={prop.brandLogo}/>
